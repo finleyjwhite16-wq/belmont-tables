@@ -1,0 +1,12 @@
+{
+  "name": "belmont-tables",
+  "version": "1.0.0",
+  "description": "Volunteer sign-up app for Belmont Tables",
+  "main": "server.js",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server.js",
+    "make-coordinator": "node make-coordinator.js"
+  }
+}
